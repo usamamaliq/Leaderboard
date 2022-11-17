@@ -1,0 +1,60 @@
+body {
+ 
+
+}
+
+.bgGrey {
+  background-color: rgb(167, 169, 170);
+}
+
+.mainTitle {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.titleContainer {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.refreshButton {
+  margin-left: auto;
+  width: 5vw;
+  height: 3vh;
+  font-size: 1vw;
+
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.inputForm input {
+  margin-top: 2vh;
+}
+.formButton {
+  margin-top: 2vh;
+  width: 5vw;
+  height: 3vh;
+  font-size: 1vw;
+  margin-left: auto;
+}
