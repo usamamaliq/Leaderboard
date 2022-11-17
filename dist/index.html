@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="mainTitle">
+<h1 class="heading">Leaderboard</h1>
+</div>
+<section class="mainContainer">
+    <div class="scoreContainer">
+        <div class="titleContainer">
+            <h2 class="scoreTitle">Recent Scores</h2>
+            <button type="button" class="refreshButton">Refresh</button>
+        </div>
+        <div class="recentScores">
+            <ul class="scoreList">
+                <li> Name: 100</li>
+                <li class="bgGrey"> Name: 90</li>
+                <li> Name: 80</li>
+                <li class="bgGrey"> Name: 70</li>
+                <li> Name: 60</li>
+            </ul>
+        </div>
+    </div>
+    <div class="scoreInput">
+        <div class="inputTitleContainer">
+            <h2 class="inputTitle">Add your score</h2>
+        </div>
+        <form class="inputForm" action="submit">
+            <input type="text" class="nameValue" name="name" placeholder="Your Name" required>
+            <input type="number" class="scoreValue" name="score" placeholder="Your Score" required>
+            <button type="submit" class="formButton">Submit</button>
+        </form>
+    </div>
+</section>
+</body>
+</html>
