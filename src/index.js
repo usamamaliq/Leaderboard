@@ -1,9 +1,9 @@
 import './style.css';
-import {pushScore} from './modules/fetchApi';
+import {pushScore, getScoreCard} from './modules/fetchApi';
 
 
 const form = document.querySelector('.inputForm');
-
+const refreshButton = document.querySelector('.refreshButton');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -14,9 +14,12 @@ form.addEventListener('submit', (event) => {
     score: scoreValue,
   };
   pushScore(score);
-  // setTimeout(() => {
-  //   loadLists(list.store);
-  // }, 1000);
  form.reset();
+ 
 });
 
+refreshButton.addEventListener('click', (event) => {
+  getScoreCard();
+});
+
+getScoreCard();
