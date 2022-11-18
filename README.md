@@ -6,7 +6,11 @@
 
 # Live Demo
 
-[Click to view Project]()
+[Click to view Project](https://usamamaliq.github.io/Leaderboard/dist/)
+
+# Screenshot of Website
+
+![Leaderboard](https://user-images.githubusercontent.com/101483956/202818416-ec92c25f-8a53-44ae-a23e-da1e6d2d8181.PNG)
 
 ## Built With
 
