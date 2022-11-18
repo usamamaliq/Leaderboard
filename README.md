@@ -6,7 +6,7 @@
 
 # Live Demo
 
-[Click to view Project]()
+[Click to view Project](https://usamamaliq.github.io/Leaderboard/dist/)
 
 ## Built With
 
