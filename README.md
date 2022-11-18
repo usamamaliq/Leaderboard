@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> In this project data is being sent to API using fetch and is then being fetched back to diplay scores on leaderboard from API.
+> This is a Leaderboard project where user can input name and scores of a person and submit them. These scores are sent to a leaderboard API where they are stored. When the scores are fetched they are dynamically passed to the scoreboard to display scores.
 
 # Live Demo
 
