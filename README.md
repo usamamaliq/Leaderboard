@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> This is a basic setup for Leaderboard project where webpack configured and html markup has been setup
+> In this project data is being sent to API using fetch and is then being fetched back to diplay scores on leaderboard from API.
 
 # Live Demo
 
